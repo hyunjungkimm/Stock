@@ -1,6 +1,7 @@
 package stockMixed;
 
 import stockBuilder.Order;
+import tax.TaxCalculator;
 
 import static stockMixed.MixedBuilder.*;
 
@@ -15,5 +16,6 @@ public class Customer {
                                             .stock("GOOGLE")
                                             .on("NASDAQ")
                                             .at(125.00)) );
+
     }
 }
